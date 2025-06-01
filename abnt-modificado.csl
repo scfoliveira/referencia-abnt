@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<style xmlns="http://purl.org/net/xbiblio/csl" version="1.0">
+    <info>
+        <title>ABNT - Artigo Científico</title>
+        <id>http://www.zotero.org/styles/abnt-artigo</id>
+        <updated>2025-06-01T11:55:00Z</updated>
+        <author>
+            <name>Seu Nome</name>
+        </author>
+        <category citation-format="author-date"/>
+        <summary>Estilo baseado nas normas da ABNT para referências científicas.</summary>
+    </info>
+
+    <citation>
+        <layout prefix="(" suffix=")" delimiter="; ">
+            <group delimiter=", ">
+                <text variable="author"/>
+                <text variable="issued" form="year"/>
+            </group>
+        </layout>
+    </citation>
+
+    <bibliography>
+        <layout>
+            <group delimiter=". ">
+                <text variable="author" text-case="uppercase"/>
+                <text variable="title"/>
+                <text variable="container-title" font-weight="bold"/>
+                <group delimiter=", ">
+                    <text variable="volume"/>
+                    <text variable="issue"/>
+                    <text variable="page"/>
+                    <text variable="issued"/>
+                </group>
+            </group>
+        </layout>
+    </bibliography>
+</style>
